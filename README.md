@@ -1,19 +1,19 @@
-# mobilityware-data-grid
+# mobilityware-data-grid-2
 
 ## Install
 
 ```sh
-npm install mobilityware-data-grid
+npm install mobilityware-data-grid-2
 ```
 
-`mobilityware-data-grid` is published as ECMAScript modules for evergreen browsers / bundlers, and CommonJS for server-side rendering / Jest.
+`mobilityware-data-grid-2` is published as ECMAScript modules for evergreen browsers / bundlers, and CommonJS for server-side rendering / Jest.
 
 ## Quick start
 
 ```jsx
-import "mobilityware-data-grid/lib/styles.css";
+import "mobilityware-data-grid-2/lib/styles.css";
 
-import DataGrid from "mobilityware-data-grid";
+import DataGrid from "mobilityware-data-grid-2";
 
 const columns = [
   { key: "id", name: "ID" },
@@ -61,7 +61,7 @@ An optional array of summary rows, usually used to display total values for exam
 A function returning a unique key/identifier per row. `rowKeyGetter` is required for row selection to work.
 
 ```tsx
-import DataGrid from "mobilityware-data-grid";
+import DataGrid from "mobilityware-data-grid-2";
 
 interface Row {
   id: number;
@@ -87,7 +87,7 @@ The second parameter is an object with an `indexes` array highlighting which row
 
 ```tsx
 import { useState } from "react";
-import DataGrid from "mobilityware-data-grid";
+import DataGrid from "mobilityware-data-grid-2";
 
 function MyGrid() {
   const [rows, setRows] = useState(initialRows);
@@ -178,7 +178,7 @@ interface Renderers<TRow, TSummaryRow> {
 For example, the default `<Row />` component can be wrapped via the `renderRow` prop to add context providers or tweak props
 
 ```tsx
-import DataGrid, { RenderRowProps, Row } from "mobilityware-data-grid";
+import DataGrid, { RenderRowProps, Row } from "mobilityware-data-grid-2";
 
 function myRowRenderer(key: React.Key, props: RenderRowProps<Row>) {
   return (
