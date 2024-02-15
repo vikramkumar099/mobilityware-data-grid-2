@@ -1,6 +1,6 @@
 {
   "name": "mobilityware-data-grid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "keywords": [
     "react",
@@ -8,9 +8,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vikramkumar099/mobilityware-data-grids"
+    "url": "git+https://github.com/vikramkumar099/mobilityware-data-grid-2"
   },
-  "bugs": "https://github.com/vikramkumar099/mobilityware-data-grids/issues",
+  "bugs": "https://github.com/vikramkumar099/mobilityware-data-grid-2/issues",
   "type": "module",
   "exports": {
     "./lib/styles.css": "./lib/styles.css",
