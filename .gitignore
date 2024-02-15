@@ -1,0 +1,12 @@
+/node_modules
+
+/coverage
+/dist
+/lib
+
+/tmp
+/.eslintcache
+/package-lock.json
+
+npm-debug.log
+**.orig
